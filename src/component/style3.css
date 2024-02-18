@@ -1,0 +1,861 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+body{
+    background-color: #F1F1E7;
+}
+
+.nav_border{
+    background-color: #40798C;
+    padding-block-start: 30px !important;
+}
+
+.navbar-brand{
+    font-family: Bebas Neue;
+    font-size: 40px;
+    color: #40798C;
+    transition: color 0.5s ease;
+    text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.5);
+}
+
+.navbar-brand:hover {
+    color: #70A9A1;
+}
+
+.navbar{
+    background-color: #F1F1E7;
+}
+
+.nav-filler-profile{
+    margin-right: 100px;
+}
+
+.nav-filler-eprofile2{
+    margin-right: 500px;
+}
+
+.nav-filler-profile2{
+    margin-right: 500px;
+}
+
+.nav-filler-profile4{
+    width: 4px;
+    height: 40px;
+    background-color: #40798C;
+    margin-right: 10px;
+    transform: translate(15px,0px);
+    
+}
+
+.envelope-container, .bell-container, .user-name, .user-container{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.dropdown-container{
+    width: fit-content;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+.divider{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.nav-user-name{
+    font-family: Be Vietnam Pro;
+    color: #40798C;
+    width: 300px;
+    height: 40px;
+    margin-left: auto;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 40px;   
+}
+
+.envelope, .bell{
+    position: absolute;
+    transform: translate(8px, 8px);
+    color: #40798C;
+}
+
+.user{
+    transform: translate(5px, 4px);
+}
+
+.dropdown-button{
+    background-color: #70A9A1 !important;
+    color: #ffffff;
+    font-family: Be Vietnam Pro;
+    font-size: 17px;
+    border: none;   
+}
+
+.dropdown-button:hover{
+    background-color: #40798C !important;
+    color: #ffffff;
+}
+
+.profile-info-container{
+    width: 500px;
+    height: 565px;
+    margin-left: 33%;
+}
+
+.profile-pic{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #70A9A1;
+}
+
+.placeholder-picture{
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 300;
+    color: #40798C;
+}
+
+.user-name{
+    width: fit-content;
+    height: 60px;
+    font-family: Be Vietnam Pro;
+    font-size: 30px;
+    font-weight: bold;
+    color: #40798C;
+    margin: auto;
+}
+
+.info-logo-divider1{
+    width: 40px;
+    height: fit-content;
+}
+.info-logo-divider2{
+    width: 40px;
+    height: fit-content;
+}
+
+.profile-logo{
+    position: absolute;
+    transform: translate(8px, 8px);
+    color: #40798C;
+}
+
+.profile-info-content{
+    width: fit-content;
+    height: 35px;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    color: #40798C;
+    padding-left: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+.edit-profile-btn{
+    font-family: Be Vietnam Pro;
+    color: #858585; 
+    width: fit-content;
+    line-height: 18px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 350px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+.edit-profile-btn:hover{
+    color: #c3c1c1;
+}
+
+.resume-heading_1{
+    font-family: Be Vietnam Pro;
+    font-size: 30px;
+    font-weight: bold;
+    color: #40798C; 
+    width: fit-content;
+    height: 40px;
+    margin-top: 10px;  
+}
+
+.profile-resume-container{
+    width: 500px;
+    height: 150px;
+    margin-top: 10px;
+    display: flex;
+    border: 3px solid #40798C;
+    box-shadow: 5px 5px 10px rgba(50, 50, 50, .5);
+}
+
+.resume-upload-container{
+   
+    width: 500px;
+    height: 180px;
+    margin: auto;
+    border: 3px solid #40798C;
+    box-shadow: 5px 5px 10px rgba(50, 50, 50, .5);
+}
+.form-check1{
+    margin-top: 6%;
+}
+
+.form-check1,.form-check2{
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+.form-upload1{
+    font-family: Be Vietnam Pro;
+    color: #40798C;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+/* Style the file input button */
+.file-style[type="file"]::-webkit-file-upload-button {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    background-color: #70A9A1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s ease;
+  }
+  
+  /* Style the file input button for Firefox */
+  .file-style[type="file"]::file-selector-button {
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    background-color: #70A9A1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.5s ease;
+  }
+
+  .file-style[type="file"]::-webkit-file-upload-button:hover{
+    background-color: #40798C;
+  }
+
+  .file-style[type="file"]::file-selector-button:hover{
+    background-color: #40798C;
+  }
+
+.form-upload2{
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-weight: bold;
+    color: #70A9A1;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    transition: color 0.5s ease;
+}
+
+.form-upload2:hover{
+    color: #40798C;
+}
+
+
+
+
+
+.form-check-label{
+    font-family: Be Vietnam Pro;
+    color: #40798C;
+    font-size: 20px;
+}
+
+.form-check-input{
+   width: 23px;
+   height: 23px;
+   margin-right: 20px;
+   border: 2px solid #40798C;
+}
+
+.resume-placeholder{
+    width: 100px;
+    height: 100px;
+    background-image: url(../asset/images/file.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    margin-top: 13px;
+    cursor: pointer;
+    
+}
+
+.heading-container{
+    margin-top: 13px; 
+    margin-left: 40px;
+    height: fit-content;
+    text-decoration: none;
+}
+.resume-heading_2{
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-weight: 600;
+    color: #40798C; 
+    width: fit-content;
+    height: 40px;
+    cursor: pointer;
+}
+.resume-heading_3{
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 600;
+    color: #858585; 
+    width: fit-content;
+    height: 40px;
+}
+.resume-heading_4{
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 600;
+    color: #858585; 
+    width: fit-content;
+    height: 40px;
+    margin-left: 40px;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0px;
+    transition: color 0.5s ease;
+}
+.resume-heading_4:hover{
+    color:#c3c1c1
+}
+
+.resume-logo{
+    position: absolute;
+    transform: translate(8px, 8px);
+    color: #858585;
+}
+.greater-than-btn_2{
+    color: #40798C;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.greater-than-btn_3{
+    color: #40798C;
+    margin-top: 47px;
+    transition: color 0.5s ease;
+}
+.greater-than-btn_3:hover{
+    color: #70A9A1;
+}
+
+
+
+/* PROFILE EDIT */
+
+.profile-edit-back{
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 600;
+    color: #40798C; 
+    width: fit-content;
+    height: 40px;
+    border: 0px;
+    background-color: transparent;
+    margin-left: 140px;
+    margin-top: 30px;
+    transition: color 0.5s ease;
+}
+.profile-edit-back:hover{
+    color: #70A9A1;
+}
+
+.less-than-btn{
+    padding-right: 6px;
+}
+
+.edit-border-bottom{
+    width: 800px;
+    height: 350px;
+    border-bottom: 5px solid #858585;
+    margin: auto;
+}
+
+
+
+
+.edit-contact-info-container_1{
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-weight: 600;
+    color: #40798C;
+    width: 500px;
+    height: fit-content;
+    margin-left: 18%;
+}
+
+.edit-contact-info-container_2{
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-weight: 600;
+    color: #40798C;
+    width: 500px;
+    height: fit-content;
+    margin-left: 18%;
+    margin-top: 13%;
+}
+
+.fname-edit-container{
+    width: 500px;
+    height: 85px;
+}
+.edit-heading_1{
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    font-size: 20px;
+    color: #40798C;
+    width: 500px;
+}
+.edit-heading_2{
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ee2400;
+    width: 500px;
+    margin-left: 10px;
+
+}
+
+.edit-textbox{
+    width: 500px;
+    font-style: Be Vietnam Pro;
+    font-size: 20px;
+    outline: 0;
+    border-width: 0 0 3px;
+    border-color:  #40798C;
+    background-color: transparent;
+    color: #40798C;
+}
+  
+  .edit-textbox:focus{
+    outline: 0;
+    border-color: #70A9A1;
+}
+  
+
+  .edit-checkbox-container_1{
+    width: fit-content;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+  
+  
+  .edit-check-box {
+    font-style: Be Vietnam Pro;
+    font-weight: bold;
+    color: #40798C;
+    margin-left: 40px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  /* Hide the browser's default checkbox */
+  .edit-check-box input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+  /* Create a custom checkbox */
+  .edit-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #70A9A1;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+  
+  /* On mouse-over, add a grey background color */
+  .edit-check-box:hover input ~ .edit-checkmark {
+    background-color: #699c95;
+}
+  
+  /* When the checkbox is checked, add a blue background */
+  .edit-check-box input:checked ~ .edit-checkmark {
+    background-color: #40798C;
+}
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .edit-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+  /* Show the checkmark when checked */
+  .edit-check-box input:checked ~ .edit-checkmark:after {
+    display: block;
+}
+  
+  /* Style the checkmark/indicator */
+  .edit-check-box .edit-checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+  .edit-checkbox-description{
+    font-style: Be Vietnam Pro;
+    font-size: 15px;
+    text-align: justify;
+    color: #858585; 
+    font-weight: 400;   
+    width: 420px;
+    height: 140px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.address-heading_1{
+    font-family: Be Vietnam Pro;
+    font-size: 25px;
+    font-weight: 600;
+    color: #40798C;
+}
+.address-heading_2{
+    font-family: Be Vietnam Pro;
+    font-size: 15px;
+    font-weight: 600;
+    color: #858585;
+    margin-left: 20px;
+}
+
+.fname-edit-container-redo{
+    width: 500px;
+    height: 85px;
+    margin-top: 35px;
+}
+
+.edit-relocation-container{
+    font-family: Be Vietnam Pro;
+    font-size: 20px;
+    font-weight: 500;
+    color: #40798C;
+    width: 500px;
+    margin-top: 8px;
+}
+
+.edit-checkbox-container_2{
+    width: fit-content;
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.save-btn{
+    font-family: Be Vietnam Pro;
+    color: #ffffff;
+    background-color: #40798C;
+    border: 0px;
+    font-size: 20px;
+    width: 415px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.save-btn:hover{
+    background-color: #70A9A1; 
+    color: #ffffff; 
+}
+
+
+/* PROFILE RESUME */
+
+.resume-border{
+    width: 700px;
+    height: fit-content;
+    margin: auto;   
+}   
+
+.resume-name{
+    width: fit-content;
+    height: 50px;
+    font-family: Be Vietnam Pro;
+    font-size: 30px;
+    font-weight: bold;
+    color: #40798C;
+    margin: auto;
+}
+
+.edit-profile-btn_2{
+font-family: Be Vietnam Pro;
+color: #858585; 
+width: fit-content;
+height: 30px;
+font-size: 20px;
+text-align: center;
+margin-left: 560px;
+border: 0;
+transform: translate(0px, -50px);
+text-decoration: none;
+background-color: transparent;
+transition: color 0.5s ease;
+}
+.edit-profile-btn_2:hover{
+color: #c3c1c1;
+}
+
+.resume-info-divider1{
+    width: 40px;
+    height: fit-content;
+}
+.resume-logo-divider2{
+    width: 40px;
+    height: fit-content;
+}
+
+.profile-info-content{
+    width: fit-content;
+    height: 35px;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    color: #40798C;
+    padding-left: 50px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.resume-info-container{
+    display: flex;
+    font-family: Be Vietnam Pro;
+    font-weight: 700    ;
+    font-size: 30px;
+    color: #40798C;
+    height: 40px;
+    width: 700px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-info-container-nopadd{
+    font-family: Be Vietnam Pro;
+    font-weight: 700    ;
+    font-size: 30px;
+    color: #40798C;
+    height: 40px;
+    width: 700px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.plus, .minus_1, .minus_2, .minus_3, .minus_4, .minus_5, .minus_6 {
+    color: #70A9A1;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.plus:hover{
+    color: #40798C;
+}
+.minus_1:hover{
+    color: #40798C;
+}
+.minus_2:hover{
+    color: #40798C;
+}
+.minus_3:hover{
+    color: #40798C;
+}
+.minus_4:hover{
+    color: #40798C;
+}
+.minus_5:hover{
+    color: #40798C;
+}
+.minus_6:hover{
+    color: #40798C;
+}
+
+
+
+.resume-info-textbox{
+    height: 50px;
+    width: 700px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #40798C;
+    border-style: dashed;
+    border: 2px dashed #40798C; /* Adjust width and color as needed */
+}
+.resume-info-textbox:focus{
+    color: #40798C;
+    outline: 0;
+}
+
+.resume-info-textarea{
+    height: 300px;
+    width: 700px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #40798C;
+    border-style: dashed;
+    border: 2px dashed #40798C; /* Adjust width and color as needed */
+}
+.resume-info-textarea:focus{
+    color: #40798C;
+    outline: 0;
+}
+
+
+.plus {
+    margin-top: 15px;
+    margin-right: 10px; 
+}
+
+.minus_1{
+    margin-top: 15px;
+    margin-left: 60%;   
+}
+
+.minus_2{
+    margin-top: 15px;
+    margin-left: 35%;  
+}
+
+.minus_3{
+    margin-top: 15px;
+    margin-left: 43%;   
+}
+
+.minus_4{
+    margin-top: 15px;
+    margin-left: 58%;   
+}
+
+.minus_5{
+    margin-top: 15px;
+    margin-left: 69%;   
+}
+
+.minus_6{
+    margin-top: 15px;
+    margin-left: 27%; 
+}
+
+
+.suggestions {
+    position: absolute;
+    top: calc(100% + 10px); /* Adjust the distance from the input field */
+    left: 55%;
+    width: 20%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    display: block;
+    z-index: 999; /* Ensure suggestions appear above other elements */
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.save-btn_2{
+    font-family: Be Vietnam Pro;
+    color: #ffffff;
+    background-color: #40798C;
+    border: 0px;
+    font-size: 20px;
+    width: 415px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 90px;
+    margin-left: 130px;
+    margin-bottom: 90px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.save-btn_2:hover{
+    background-color: #70A9A1; 
+    color: #ffffff; 
+}
+
+
+
+
+
+.selectresume{
+    margin-left: 120px;
+    width: 60%;
+    height: 35px;
+    outline: none;
+}
